@@ -24,7 +24,6 @@ app.get('/map', (req, res) => {
 
 app.get('/ethel/:slug', (req, res) => {
     var ethel = ethels.Ethels.find(o => o.slug === req.params.slug);
-    console.log(ethel);
     res.render('ethel', { title: ethel.name, ethel: ethel });
 });
 
