@@ -1,0 +1,58 @@
+<!--Container-->
+<div class="container w-full md:max-w-4xl mx-auto pt-10">
+  
+    <div class="w-full px-4 md:px-4 text-gray-800 leading-normal">
+        <!--Card-->
+        <div>
+
+            <table id="example" class="table-auto stripe hover text-left" style="width:100%;">
+                <thead class="p-0">
+                    <tr>
+                        <th data-priority="2">Name</th>
+                        <th data-priority="1">Height</th>
+                        <th data-priority="1">Lat/Lon</th>
+                        <th data-priority="5">County</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each ethels}}
+                    <tr>
+                        <td><a class="underline" href="/ethel/{{ slug }}">{{ name }}</a></td>
+                        <td>{{ height }}</td>
+                        <td>{{ lat }}, {{ lon }}</td>
+                        <td>{{ county }}</td>
+                    </tr>
+                    {{/each}}
+                </tbody>
+
+            </table>
+
+
+        </div>
+        <!--/Card-->
+
+    </div>
+    <!--Divider-->
+    <hr class="mt-8 mx-4">
+
+</div>
+<!--/container-->
+
+<!-- jQuery -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+	<!--Datatables -->
+	<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+	<script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+	<script>
+		$(document).ready(function() {
+
+			var table = $('#example').DataTable({
+					responsive: true,
+                    order: [[1, 'desc']],
+                    paging: false
+				})
+				.columns.adjust()
+				.responsive.recalc();
+		});
+	</script>

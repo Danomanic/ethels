@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ethels : {{#if title}}{{ title }} Ethel - Walk and Routes{{else}}95 Hills in the Peak District{{/if}}</title>
+    <meta name="author" content="Daniel J. Pomfret" />
+    <meta name="description" content="The Ethels are 95 hills in the Peak District of England" />
+    <meta name="keywords" content="ethels,hills,walking" />
+    <link rel="stylesheet" href="/styles/style.css"/>
+    <!--Regular Datatables CSS-->
+	<link href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet">
+	<!--Responsive Extension Datatables CSS-->
+	<link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.14.1/css/ol.css" type="text/css">
+    <style>
+      .map {
+        height: 400px;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+	<nav id="header" class="w-full z-10 top-0 bg-white shadow">
+
+		<div class="w-full md:max-w-4xl mx-auto flex flex-wrap items-center justify-between mt-0 py-3 px-2 md:px-2">
+
+			<div class="pl-4">
+				<a class="text-gray-900 text-base no-underline hover:no-underline font-extrabold text-xl" href="/">
+					Ethels
+				</a>
+			</div>
+
+			<div class="block lg:hidden pr-4">
+				<button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-900 hover:border-green-500 appearance-none focus:outline-none">
+					<svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+						<title>Menu</title>
+						<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+					</svg>
+				</button>
+			</div>
+
+			<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20" id="nav-content">
+				<ul class="list-reset lg:flex justify-end flex-1 items-center">
+					<li class="mr-3">
+						<a class="inline-block py-2 px-4 text-gray-900 font-bold no-underline" href="/">Home</a>
+					</li>
+					<li class="mr-3">
+						<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4" href="/list">List</a>
+					</li>
+					<li class="mr-3">
+						<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4" href="/map">Map</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	{{{ body }}}
+
+	<footer class="bg-white border-t border-gray-400 shadow">
+		<div class="container max-w-4xl mx-auto flex py-8">
+
+			<div class="w-full mx-auto flex flex-wrap">
+				<div class="flex w-full md:w-1/2 ">
+					<div class="px-8">
+						<h3 class="font-bold text-gray-900">About</h3>
+						<p class="py-4 text-gray-600 text-sm">
+							Welcome, this website was made to display information about the 95 Ethel hills in the Peak District of England. Hopefully it will provide you with all the information you need to enjoy walking/exploring them. I've tried to include routes, information, and images of the hills. If you have any questions, please feel free to <a href="https://dano.me.uk/contact/" target="_blank" class="underline">contact me</a>.
+						</p>
+					</div>
+				</div>
+
+				<div class="flex w-full md:w-1/2">
+					<div class="px-8">
+						<h3 class="font-bold text-gray-900">Links</h3>
+						<ul class="list-reset items-center text-sm pt-3">
+							<li>
+								<a class="inline-block text-gray-600 underline hover:text-gray-900 hover:text-underline py-1" href="https://github.com/Danomanic/ethels">GitHub</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+
+
+		</div>
+	</footer>
+
+</body>
+
+</html>
