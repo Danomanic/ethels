@@ -3,7 +3,7 @@ import { engine } from 'express-handlebars';
 import ethels from './data/ethels.json' assert { type : "json" };
 
 const app = express();
-const expressPort = 3000;
+const expressPort = process.env.PORT || 3000;
 
 app.engine('handlebars', engine());
 app.set('view engine', 'handlebars');
