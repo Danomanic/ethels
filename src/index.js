@@ -1,6 +1,6 @@
-import express from 'express';
-import { engine } from 'express-handlebars';
-import ethels from './data/ethels.json' assert { type : "json" };
+const express = require('express');
+const { engine } = require('express-handlebars');
+const ethels = require('./data/ethels.json');
 
 const app = express();
 const expressPort = process.env.PORT || 3000;
