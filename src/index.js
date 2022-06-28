@@ -13,19 +13,19 @@ app.use('/', express.static('./src/public'));
 app.use(compression());
 
 app.get('/', (req, res) => {
-  res.render('home', { ethels: ethels.Ethels });
+  res.render('home', { ethels });
 });
 
 app.get('/list', (req, res) => {
-  res.render('list', { title: 'List of Ethels', ethels: ethels.Ethels });
+  res.render('list', { title: 'List of Ethels', ethels });
 });
 
 app.get('/map', (req, res) => {
-  res.render('map', { title: 'Ethel Map', ethels: ethels.Ethels });
+  res.render('map', { title: 'Ethel Map', ethels });
 });
 
 app.get('/ethel/:slug', (req, res) => {
-  const ethel = ethels.Ethels.find((o) => o.slug === req.params.slug);
+  const ethel = ethels.find((o) => o.slug === req.params.slug);
   res.render('ethel', { title: ethel.name, ethel });
 });
 

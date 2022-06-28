@@ -2,7 +2,6 @@ const sharp = require('sharp');
 
 const imageFolder = './src/public/images/ethels';
 const fs = require('fs');
-const path = require('path');
 
 fs.readdirSync(imageFolder).forEach((file) => {
   if (file.endsWith('.jpg')) {
