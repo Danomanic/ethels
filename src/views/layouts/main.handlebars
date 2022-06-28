@@ -19,18 +19,28 @@
   
 <body class="bg-gray-100 font-sans leading-normal tracking-normal">
 
-	<nav id="header" class="w-full z-10 top-0 bg-white shadow">
+	<nav id="header" class="w-full z-10 top-0 bg-black shadow">
 
 		<div class="w-full md:max-w-4xl mx-auto flex flex-wrap items-center justify-between mt-0 py-3 px-2 md:px-2">
 
 			<div class="pl-4">
-				<a class="text-gray-900 text-base no-underline hover:no-underline text-xl font-bold" href="/">
-					Ethels
+				<a class="flex text-white uppercase text-base no-underline hover:underline text-xl font-bold" href="/">
+					<svg class="h-10 w-10 mr-4" version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.000000 512.000000">
+						<g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" fill="#FFFFFF" stroke="none">
+						<path d="M1830 4030 c-19 -10 -47 -31 -62 -47 -15 -15 -321 -566 -680 -1223
+						l-653 -1195 0 -76 c0 -96 27 -143 106 -183 l53 -26 1955 0 c1334 0 1968 3
+						1994 11 49 13 105 63 128 114 24 51 24 131 1 175 -9 19 -264 380 -566 802
+						-529 741 -549 768 -599 793 -59 29 -120 32 -175 10 -24 -10 -119 -98 -274
+						-252 -131 -131 -239 -235 -241 -233 -2 3 -163 284 -357 625 -194 341 -367 635
+						-384 654 -63 68 -172 91 -246 51z"/>
+						</g>
+					</svg>
+					<p class="pt-1">Ethels</p>
 				</a>
 			</div>
 
 			<div class="block lg:hidden pr-4">
-				<button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-900 hover:border-green-500 appearance-none focus:outline-none">
+				<button id="nav-toggle" class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-gray-400 hover:border-grey-400 appearance-none focus:outline-none">
 					<svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
 						<title>Menu</title>
 						<path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
@@ -38,16 +48,16 @@
 				</button>
 			</div>
 
-			<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-gray-100 md:bg-transparent z-20" id="nav-content">
+			<div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 bg-black md:bg-transparent z-20" id="nav-content">
 				<ul class="list-reset lg:flex justify-end flex-1 items-center">
 					<li class="mr-3">
-						<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4" href="/">Home</a>
+						<a class="inline-block text-gray-100 no-underline hover:text-gray-400 hover:underline py-2 px-4" href="/">Home</a>
 					</li>
 					<li class="mr-3">
-						<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4" href="/list">List</a>
+						<a class="inline-block text-gray-100 no-underline hover:text-gray-400 hover:underline py-2 px-4" href="/list">List</a>
 					</li>
 					<li class="mr-3">
-						<a class="inline-block text-gray-600 no-underline hover:text-gray-900 hover:text-underline py-2 px-4" href="/map">Map</a>
+						<a class="inline-block text-gray-100 no-underline hover:text-gray-400 hover:underline py-2 px-4" href="/map">Map</a>
 					</li>
 				</ul>
 			</div>

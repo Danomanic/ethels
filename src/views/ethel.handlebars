@@ -1,3 +1,8 @@
+{{#if ethel.image}}
+<div>
+  <img src="/images/ethels/{{ethel.image}}" alt="{{ethel.name}}" class="object-cover w-full h-96">
+</div>
+{{/if}}
 <!--Container-->
 <div class="container w-full md:max-w-4xl mx-auto pt-10">
 <div class="grid md:grid-cols-3 gap-4">
@@ -75,6 +80,10 @@
      <a href="#" id="popup-closer" class="ol-popup-closer"></a>
      <div id="popup-content"></div>
  </div>
+
+<div class="bg-white shadow px-2 py-4 text-right">
+  <div class="container w-full md:max-w-4xl mx-auto ">{{{ ethel.image_attribute }}}</div>
+</div>
 
 <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.14.1/build/ol.js"></script>
 <script type="text/javascript">

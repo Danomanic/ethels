@@ -10,7 +10,9 @@
             "lon": "-1.8751769",
             "gridreference": "SK084875",
             "county": "Derbyshire",
-            "moderate": "https://explore.osmaps.com/route/517077/trail-magazine-kinder-scout--?lat=53.394333&lon=-1.925337&zoom=12.5276&overlays=&style=Standard&type=2d&placesCategory="
+            "moderate": "https://explore.osmaps.com/route/517077/trail-magazine-kinder-scout--?lat=53.394333&lon=-1.925337&zoom=12.5276&overlays=&style=Standard&type=2d&placesCategory=",
+            "image": "kinder-scout.jpg",
+            "image_attribute": "Photo by <a href=\"https://unsplash.com/@amitjagnade?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Amit Jagnade</a> on <a href=\"https://unsplash.com/s/photos/kinder-scout?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>"
         },
         {
             "id": "2",
@@ -22,7 +24,9 @@
             "lon": "-1.8598922",
             "gridreference": "SK094960",
             "county": "Derbyshire",
-            "moderate": "https://explore.osmaps.com/route/4226292/trail-magazine-february-2020--bleaklow-head-peak-district?lat=53.459233&lon=-1.863429&zoom=14.1886&overlays=&style=Standard&type=2d&placesCategory="
+            "moderate": "https://explore.osmaps.com/route/4226292/trail-magazine-february-2020--bleaklow-head-peak-district?lat=53.459233&lon=-1.863429&zoom=14.1886&overlays=&style=Standard&type=2d&placesCategory=",
+            "image": "bleaklow.jpg",
+            "image_attribute": "Photo by <a href=\"https://unsplash.com/@milltownphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Sam Barber</a> on <a href=\"https://unsplash.com/s/photos/bleaklow?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>"
         },
         {
             "id": "3",
