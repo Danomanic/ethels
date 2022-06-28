@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 
+/*Overrides for Tailwind CSS */
 .map {
 	height: 400px;
 	width: 100%;
+	background-color: #4a5568;
 }
-
-/*Overrides for Tailwind CSS */
 
 /*Form fields*/
 .dataTables_wrapper select,
