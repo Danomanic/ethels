@@ -20,7 +20,7 @@
 
         {{#each ethels}}
         var element = document.createElement('div');
-        element.innerHTML = '<div class="text-center bg-white p-0 bg-opacity-100 text-sm rounded shadow"><a href="/ethel/{{slug}}" class="flex">{{#if image}}<img class="w-8 h-8" src="images/ethels/{{image}}">{{/if}}<p class="py-1 px-1">{{name}}</p></a></div>';
+        element.innerHTML = '<div class="text-center bg-white p-0 bg-opacity-100 text-sm rounded shadow"><a href="/ethel/{{slug}}" class="flex">{{#if image}}<img class="w-8 h-8" src="images/ethels/map/{{image}}">{{/if}}<p class="py-1 px-1">{{name}}</p></a></div>';
         var marker = new ol.Overlay({
             position: ol.proj.fromLonLat([{{lon}},{{lat}}]),
             positioning: 'center-center',
