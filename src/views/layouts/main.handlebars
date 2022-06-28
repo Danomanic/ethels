@@ -14,6 +14,13 @@
 	<link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.14.1/css/ol.css" type="text/css">
 	<link rel="stylesheet" href="/styles/style.css"/>
+
+	{{#if ethel}}
+	<meta property="og:title" content="{{ethel.name}} Ethel (Hill Walk)" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://ethels.uk/ethel/{{ethel.slug}}" />
+	<meta property="og:image" content="https://ethels.uk/images/ethels/{{ethel.image}}" />
+	{{/if}}
   </head>
 
   
