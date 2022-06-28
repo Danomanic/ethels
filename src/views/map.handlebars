@@ -1,4 +1,4 @@
-<div id="map" class="map"></div>
+<div id="map" class="map-big h-screen"></div>
 
 <!--/container-->
 <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.14.1/build/ol.js"></script>
@@ -20,7 +20,7 @@
 
         {{#each ethels}}
         var element = document.createElement('div');
-        element.innerHTML = '<div class="text-center bg-white px-2 bg-opacity-100 text-sm rounded shadow"><a href="/ethel/{{slug}}">{{name}}</a></div>';
+        element.innerHTML = '<div class="text-center bg-white p-0 bg-opacity-100 text-sm rounded shadow"><a href="/ethel/{{slug}}" class="flex">{{#if image}}<img class="w-8 h-8" src="images/ethels/{{image}}">{{/if}}<p class="py-1 px-1">{{name}}</p></a></div>';
         var marker = new ol.Overlay({
             position: ol.proj.fromLonLat([{{lon}},{{lat}}]),
             positioning: 'center-center',
@@ -30,3 +30,5 @@
         map.addOverlay(marker);
         {{/each}}
     </script>
+
+    <div class="object-scale-down w-8 h-8 p-0 px-1 py-1 invisible"></div>

@@ -7,7 +7,10 @@
 .map {
 	height: 400px;
 	width: 100%;
-	background-color: #4a5568;
+}
+.map-big {
+	min-height: 100%;
+	width: 100%;
 }
 
 a {
