@@ -550,6 +550,12 @@ video {
 .z-20 {
   z-index: 20;
 }
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+.row-span-2 {
+  grid-row: span 2 / span 2;
+}
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -603,6 +609,9 @@ video {
 .h-96 {
   height: 24rem;
 }
+.h-full {
+  height: 100%;
+}
 .h-10 {
   height: 2.5rem;
 }
@@ -641,6 +650,9 @@ video {
      -moz-appearance: none;
           appearance: none;
 }
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -655,6 +667,11 @@ video {
 }
 .gap-4 {
   gap: 1rem;
+}
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 .overflow-hidden {
   overflow: hidden;
@@ -731,6 +748,14 @@ video {
 .p-0 {
   padding: 0px;
 }
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -750,14 +775,6 @@ video {
 .py-0 {
   padding-top: 0px;
   padding-bottom: 0px;
-}
-.px-2 {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-}
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 .py-6 {
   padding-top: 1.5rem;
@@ -823,13 +840,13 @@ video {
 .font-sans {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 .text-base {
   font-size: 1rem;
@@ -857,13 +874,13 @@ video {
 .tracking-normal {
   letter-spacing: 0em;
 }
-.text-gray-900 {
-  --tw-text-opacity: 1;
-  color: rgb(17 24 39 / var(--tw-text-opacity));
-}
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 .text-white {
   --tw-text-opacity: 1;
@@ -926,9 +943,10 @@ a {
 	border-width: 2px;
 	/*border-2*/
 	border-radius: .25rem;
-	border-color: #edf2f7;
+	/*text-gray-400*/
+	border-color: #999999;
 	/*border-gray-200*/
-	background-color: #edf2f7;
+	background-color: #ffffff;
 	/*bg-gray-200*/
 }
 
@@ -1126,6 +1144,10 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>th:first-child:before {
     display: flex;
   }
 
+  .lg\:grid {
+    display: grid;
+  }
+
   .lg\:hidden {
     display: none;
   }
@@ -1134,7 +1156,21 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>th:first-child:before {
     width: auto;
   }
 
+  .lg\:grid-rows-3 {
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+  }
+
   .lg\:items-center {
     align-items: center;
+  }
+
+  .lg\:gap-3 {
+    gap: 0.75rem;
+  }
+
+  .lg\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(0px * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(0px * var(--tw-space-y-reverse));
   }
 }

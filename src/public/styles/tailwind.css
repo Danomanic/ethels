@@ -33,9 +33,10 @@ a {
 	border-width: 2px;
 	/*border-2*/
 	border-radius: .25rem;
-	border-color: #edf2f7;
+	/*text-gray-400*/
+	border-color: #999999;
 	/*border-gray-200*/
-	background-color: #edf2f7;
+	background-color: #ffffff;
 	/*bg-gray-200*/
 }
 

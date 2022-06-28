@@ -38,7 +38,9 @@
             "lon": "-1.8674563",
             "gridreference": "SK089948",
             "county": "Derbyshire",
-            "easy": "https://explore.osmaps.com/route/12886052/ethels-higher-shelf-stones?lat=53.443006&lon=-1.875189&zoom=13.3605&overlays=&style=Standard&type=2d&placesCategory="
+            "easy": "https://explore.osmaps.com/route/12886052/ethels-higher-shelf-stones?lat=53.443006&lon=-1.875189&zoom=13.3605&overlays=&style=Standard&type=2d&placesCategory=",
+            "image": "higher-shelf-stones.jpg",
+            "image_attribute": "Photo by <a href=\"https://www.flickr.com/photos/hillplodder/\">@hillplodder</a> on Flickr"
         },
         {
             "id": "4",
@@ -49,7 +51,9 @@
             "lat": "53.377941",
             "lon": "-1.8361122",
             "gridreference": "SK110868",
-            "county": "Derbyshire"
+            "county": "Derbyshire",
+            "image": "grindslow-knoll.jpg",
+            "image_attribute": "Photo by <a href=\"https://www.geograph.org.uk/profile/19028\">Jonathan Clitheroe</a> and licensed for reuse under this <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/2.0/\" class=\"nowrap\">Creative Commons Licence</a>"
         },
         {
             "id": "5",
@@ -60,7 +64,9 @@
             "lat": "53.537992",
             "lon": "-1.8837793",
             "gridreference": "SE078046",
-            "county": "Derbyshire / West Yorkshire"
+            "county": "Derbyshire / West Yorkshire",
+            "image": "black-hill.jpg",
+            "image_attribute": "Photo by <a title=\"View profile\" href=\"https://www.geograph.org.uk/profile/40672\">Neil Theasby</a> and licensed for reuse under this <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/2.0/\" class=\"nowrap\">Creative Commons Licence</a>"
         },
         {
             "id": "6",
@@ -71,7 +77,9 @@
             "lat": "53.36271",
             "lon": "-1.8767424",
             "gridreference": "SK083851",
-            "county": "Derbyshire"
+            "county": "Derbyshire",
+            "image": "brown-knoll.jpg",
+            "image_attribute": "Photo by <a title=\"View profile\" href=\"https://www.geograph.org.uk/profile/41502\">Philip Barker</a> and licensed for reuse under this <a rel=\"license\" href=\"http://creativecommons.org/licenses/by-sa/2.0/\" class=\"nowrap\">Creative Commons Licence</a>"
         },
         {
             "id": "7",
