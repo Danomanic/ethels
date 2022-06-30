@@ -24,6 +24,10 @@ app.get('/map', (req, res) => {
   res.render('map', { title: 'Ethel Map', ethels });
 });
 
+app.get('/photos', (req, res) => {
+  res.render('photos', { title: 'Ethel Photos', ethels });
+});
+
 app.get('/ethel/:slug', (req, res) => {
   const ethel = ethels.find((o) => o.slug === req.params.slug);
   res.render('ethel', { title: ethel.name, ethel });

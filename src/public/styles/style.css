@@ -761,6 +761,10 @@ video {
   -o-object-fit: scale-down;
      object-fit: scale-down;
 }
+.object-top {
+  -o-object-position: top;
+     object-position: top;
+}
 .p-0 {
   padding: 0px;
 }
