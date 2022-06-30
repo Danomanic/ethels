@@ -32,7 +32,7 @@ const renderAll = async () => {
       const ethel = ethels.find((o) => o.slug === newFileName);
 
       await renderHeader(ethel, file);
-      /* sharp(`${imageFolder}/${file}`).resize(580, 460).webp({
+      sharp(`${imageFolder}/${file}`).resize(580, 460).webp({
         lossless: true, quality: 60, alphaQuality: 80, force: false,
       }).toFile(`${imageFolder}/thumbnails/${newFileName}.webp`)
         .then((info) => {
@@ -49,7 +49,7 @@ const renderAll = async () => {
         })
         .catch((err) => {
           console.log(err);
-        }); */
+        });
       console.log(`Processing ${file}`);
     }
   });
