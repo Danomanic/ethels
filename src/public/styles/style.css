@@ -1124,6 +1124,10 @@ table.dataTable.dtr-inline.collapsed>tbody>tr>th:first-child:before {
     grid-column: span 2 / span 2;
   }
 
+  .md\:col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+
   .md\:mt-3 {
     margin-top: 0.75rem;
   }

@@ -32,6 +32,7 @@ const main = async () => {
     easy: row[13],
     moderate: row[14],
     hard: row[15],
+    description: row[16],
   }));
 
   // Remove first item from array

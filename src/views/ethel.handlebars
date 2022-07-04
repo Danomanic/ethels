@@ -8,75 +8,82 @@
 {{/if}}
 <!--Container-->
 <div class="container w-full md:max-w-4xl mx-auto pt-10">
-<div class="grid md:grid-cols-3 gap-4">
-  <div class="md:col-span-1">
-      <img src="/images/ethels/thumbnails/{{ ethel.image }}" alt="{{ ethel.name }}" class="w-full rounded md:mt-3 shadow hidden md:block">
-    </div>
-  <div class="md:col-span-2">
-    <div class="bg-white shadow overflow-hidden sm:rounded-lg">
-      <div class="px-4 py-5 sm:px-6">
-        <h1 class="font-bold font-sans break-normal text-gray-900 text-2xl md:text-3xl">{{ ethel.name }}</h1>
+  <div class="grid md:grid-cols-3 gap-4">
+    <div class="md:col-span-1">
+        <img src="/images/ethels/thumbnails/{{ ethel.image }}" alt="{{ ethel.name }}" class="w-full rounded md:mt-3 shadow hidden md:block">
       </div>
-      <div class="border-t border-gray-200">
-        <dl>
+    <div class="md:col-span-2">
+      <div class="bg-white shadow overflow-hidden sm:rounded-lg">
+        <div class="px-4 py-5 sm:px-6">
+          <h1 class="font-bold font-sans break-normal text-gray-900 text-2xl md:text-3xl">{{ ethel.name }}</h1>
+        </div>
+        <div class="border-t border-gray-200">
+          <dl>
+            <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+              <dt class="text-sm font-medium text-gray-500">Height</dt>
+              <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">{{ ethel.height }} metres</dd>
+            </div>
+            <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+              <dt class="text-sm font-medium text-gray-500">Prominence</dt>
+              <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">{{ ethel.prominence }} metres</dd>
+            </div>
+            <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+              <dt class="text-sm font-medium text-gray-500">County</dt>
+              <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">{{ ethel.county }}</dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+    {{#if ethel.description}}
+    <div class="md:col-span-3">
+      <div class="bg-white shadow overflow-hidden sm:rounded-lg px-4 py-5 sm:px-6">
+        <p>{{{ ethel.description }}}</p>
+      </div>
+    </div>
+    {{/if}}
+    <div class="md:col-span-2">
+      <div class="bg-white shadow overflow-hidden sm:rounded-lg mb-5">
+        <div class="px-4 py-5 sm:px-6">
+          <h3 class="font-bold font-sans break-normal text-gray-900">Map Data</h3>
+        </div>
+        <div class="border-t border-gray-200">
+          <dl>
           <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-            <dt class="text-sm font-medium text-gray-500">Height</dt>
-            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">{{ ethel.height }} metres</dd>
-          </div>
-          <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-            <dt class="text-sm font-medium text-gray-500">Prominence</dt>
-            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">{{ ethel.prominence }} metres</dd>
-          </div>
-          <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-            <dt class="text-sm font-medium text-gray-500">County</dt>
-            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">{{ ethel.county }}</dd>
-          </div>
-        </dl>
+              <dt class="text-sm font-medium text-gray-500">Grid Ref</dt>
+              <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">{{ ethel.gridreference }}</dd>
+            </div>
+            <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+              <dt class="text-sm font-medium text-gray-500">Lat/Lon</dt>
+              <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">{{ ethel.lat }}, {{ ethel.lon }}</dd>
+            </div>
+            <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+              <dt class="text-sm font-medium text-gray-500">Maps</dt>
+              <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 underline"><a href="https://www.google.co.uk/maps/@{{ ethel.lat }},{{ ethel.lon }},14z" target="_blank">Google Maps</a><br> <a href="https://explore.osmaps.com/?lat={{ ethel.lat }}&lon={{ ethel.lon }}&zoom=14.0000&overlays=&style=Standard&type=2d" target="_blank">OS Maps</a></dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </div>
+    <div class="md:col-span-1">
+      <div class="bg-white shadow overflow-hidden sm:rounded-lg">
+        <div class="px-4 py-5 sm:px-6">
+          <h3 class="font-bold font-sans break-normal text-gray-900">Routes</h3>
+        </div>
+        <div class="border-t border-gray-200">
+          <dl>
+            <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+              {{#if ethel.easy}}<a href="{{ ethel.easy }}" target="_blank" class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-1 py-0.5 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800 text-center">Easy</a>{{/if}}
+              {{#if ethel.moderate}}<a href="{{ ethel.moderate }}" target="_blank" class="focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-1 py-0.5 dark:focus:ring-yellow-900 text-center">Moderate</a>{{/if}}
+              {{#if ethel.hard}}<a href="{{ ethel.hard }}" target="_blank" class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-1 py-0.5 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900 text-center">Hard</a>{{/if}}
+            </div>
+          </dl>
+        </div>
       </div>
     </div>
   </div>
-  <div class="md:col-span-2">
-   <div class="bg-white shadow overflow-hidden sm:rounded-lg mb-5">
-      <div class="px-4 py-5 sm:px-6">
-        <h3 class="font-bold font-sans break-normal text-gray-900">Map Data</h3>
-      </div>
-      <div class="border-t border-gray-200">
-        <dl>
-         <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-            <dt class="text-sm font-medium text-gray-500">Grid Ref</dt>
-            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">{{ ethel.gridreference }}</dd>
-          </div>
-          <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-            <dt class="text-sm font-medium text-gray-500">Lat/Lon</dt>
-            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2">{{ ethel.lat }}, {{ ethel.lon }}</dd>
-          </div>
-          <div class="bg-white px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-            <dt class="text-sm font-medium text-gray-500">Maps</dt>
-            <dd class="mt-1 text-sm text-gray-900 sm:mt-0 sm:col-span-2 underline"><a href="https://www.google.co.uk/maps/@{{ ethel.lat }},{{ ethel.lon }},14z" target="_blank">Google Maps</a><br> <a href="https://explore.osmaps.com/?lat={{ ethel.lat }}&lon={{ ethel.lon }}&zoom=14.0000&overlays=&style=Standard&type=2d" target="_blank">OS Maps</a></dd>
-          </div>
-        </dl>
-      </div>
-    </div>
-  </div>
-  <div class="md:col-span-1">
-    <div class="bg-white shadow overflow-hidden sm:rounded-lg">
-      <div class="px-4 py-5 sm:px-6">
-        <h3 class="font-bold font-sans break-normal text-gray-900">Routes</h3>
-      </div>
-      <div class="border-t border-gray-200">
-        <dl>
-          <div class="bg-gray-50 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-            {{#if ethel.easy}}<a href="{{ ethel.easy }}" target="_blank" class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-1 py-0.5 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800 text-center">Easy</a>{{/if}}
-            {{#if ethel.moderate}}<a href="{{ ethel.moderate }}" target="_blank" class="focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-sm px-1 py-0.5 dark:focus:ring-yellow-900 text-center">Moderate</a>{{/if}}
-            {{#if ethel.hard}}<a href="{{ ethel.hard }}" target="_blank" class="focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-1 py-0.5 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900 text-center">Hard</a>{{/if}}
-          </div>
-        </dl>
-      </div>
-    </div>
-  </div>
-</div>
-<!--Divider-->
-<hr class="mt-8 mx-4">
+  <!--Divider-->
+  <hr class="mt-8 mx-4">
 
 </div>
 <!--/container-->

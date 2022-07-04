@@ -14,7 +14,9 @@
         "lon": "-1.8751769",
         "county": "Derbyshire",
         "easy": "",
-        "moderate": "https://explore.osmaps.com/route/517077/trail-magazine-kinder-scout--?lat=53.394333&lon=-1.925337&zoom=12.5276&overlays=&style=Standard&type=2d&placesCategory="
+        "moderate": "https://explore.osmaps.com/route/517077/trail-magazine-kinder-scout--?lat=53.394333&lon=-1.925337&zoom=12.5276&overlays=&style=Standard&type=2d&placesCategory=",
+        "hard": "",
+        "description": "Kinder Scout is a moorland plateau and national nature reserve in the Dark Peak of the Derbyshire Peak District in England. Part of the moor, at 636 metres above sea level, is the highest point in the Peak District, the highest point in Derbyshire, and the highest point in the East Midlands.&nbsp;<a href=\"https://en.wikipedia.org/wiki/Kinder_Scout\" ping=\"/url?sa=t&source=web&rct=j&url=https://en.wikipedia.org/wiki/Kinder_Scout&ved=2ahUKEwju8sHIk9_4AhW-SUEAHQuWBVkQmhN6BAh4EAI\">Wikipedia</a>"
     },
     {
         "id": "2",
@@ -31,7 +33,9 @@
         "lon": "-1.8598922",
         "county": "Derbyshire",
         "easy": "",
-        "moderate": "https://explore.osmaps.com/route/4226292/trail-magazine-february-2020--bleaklow-head-peak-district?lat=53.459233&lon=-1.863429&zoom=14.1886&overlays=&style=Standard&type=2d&placesCategory="
+        "moderate": "https://explore.osmaps.com/route/4226292/trail-magazine-february-2020--bleaklow-head-peak-district?lat=53.459233&lon=-1.863429&zoom=14.1886&overlays=&style=Standard&type=2d&placesCategory=",
+        "hard": "",
+        "description": "Bleaklow is a high, largely peat-covered, gritstone moorland in the Derbyshire High Peak near the town of Glossop. It is north of Kinder Scout, across the Snake Pass, and south of the A628 Woodhead Pass.&nbsp;<a href=\"https://en.wikipedia.org/wiki/Bleaklow\" ping=\"/url?sa=t&source=web&rct=j&url=https://en.wikipedia.org/wiki/Bleaklow&ved=2ahUKEwjsjpDzlt_4AhW-QkEAHagXAegQmhN6BAhxEAI\">Wikipedia</a>"
     },
     {
         "id": "3",
@@ -47,7 +51,10 @@
         "lat": "53.449889",
         "lon": "-1.8674563",
         "county": "Derbyshire",
-        "easy": "https://explore.osmaps.com/route/12886052/ethels-higher-shelf-stones?lat=53.443006&lon=-1.875189&zoom=13.3605&overlays=&style=Standard&type=2d&placesCategory="
+        "easy": "https://explore.osmaps.com/route/12886052/ethels-higher-shelf-stones?lat=53.443006&lon=-1.875189&zoom=13.3605&overlays=&style=Standard&type=2d&placesCategory=",
+        "moderate": "",
+        "hard": "",
+        "description": "This summit of Higher Shelf Stones sits at 621 metres high, and is part of the Derbyshire Peak District 3 Peaks Hiking Challenge."
     },
     {
         "id": "4",
@@ -62,7 +69,11 @@
         "prominence": "15",
         "lat": "53.377941",
         "lon": "-1.8361122",
-        "county": "Derbyshire"
+        "county": "Derbyshire",
+        "easy": "",
+        "moderate": "",
+        "hard": "",
+        "description": "rindslow Knoll is a hill in the Dark Peak area of the Peak District National Park in Derbyshire, England. It is joined to Kinder Scout by a high col though from most angles appears as an independent peak. It is the high point at the western side of Grindsbrook Clough.&nbsp;<a href=\"https://en.wikipedia.org/wiki/Grindslow_Knoll\" ping=\"/url?sa=t&source=web&rct=j&url=https://en.wikipedia.org/wiki/Grindslow_Knoll&ved=2ahUKEwiPqvXHk-D4AhV0PH0KHckEC-UQmhN6BAhlEAI\">Wikipedia</a>"
     },
     {
         "id": "5",
@@ -77,7 +88,11 @@
         "prominence": "165",
         "lat": "53.537992",
         "lon": "-1.8837793",
-        "county": "Derbyshire / West Yorkshire"
+        "county": "Derbyshire / West Yorkshire",
+        "easy": "",
+        "moderate": "",
+        "hard": "",
+        "description": "Black Hill, in the Peak District, is the highest hill in West Yorkshire, England. Its summit has a maximum elevation of 582 m above sea level. It is surpassed in height by only two other major summits in the Peak District. Black Hill is a typical Pennine moorland mountain, with a very flat and extensive plateau.&nbsp;<a href=\"https://en.wikipedia.org/wiki/Black_Hill_(Peak_District)\" ping=\"/url?sa=t&source=web&rct=j&url=https://en.wikipedia.org/wiki/Black_Hill_(Peak_District)&ved=2ahUKEwivwd3Zk-D4AhWhJjQIHdRVAfMQmhN6BAh-EAI\">Wikipedia</a>"
     },
     {
         "id": "6",
@@ -92,7 +107,11 @@
         "prominence": "36",
         "lat": "53.36271",
         "lon": "-1.8767424",
-        "county": "Derbyshire"
+        "county": "Derbyshire",
+        "easy": "",
+        "moderate": "",
+        "hard": "",
+        "description": "Brown Knoll is one of the highest hills in the Peak District in central England. It rises to a height of 569 metres above the head of the Edale valley and about 3 kilometres south-southwest of the Peak&apos;s highest point, Kinder Scout.&nbsp;<a href=\"https://en.wikipedia.org/wiki/Brown_Knoll\" ping=\"/url?sa=t&source=web&rct=j&url=https://en.wikipedia.org/wiki/Brown_Knoll&ved=2ahUKEwiyvOzmk-D4AhUSHjQIHRugAkMQmhN6BAhOEAI\">Wikipedia</a>"
     },
     {
         "id": "7",
@@ -107,7 +126,11 @@
         "prominence": "236",
         "lat": "53.260301",
         "lon": "-2.0104537",
-        "county": "Cheshire / Derbyshire"
+        "county": "Cheshire / Derbyshire",
+        "easy": "",
+        "moderate": "",
+        "hard": "",
+        "description": "Shining Tor is the highest hill in the modern ceremonial county of Cheshire, England. The summit has a maximum elevation of 559 m above sea level. It is in the Peak District, between the towns of Buxton and Macclesfield, and is on the administrative boundary between Derbyshire and Cheshire East.&nbsp;<a href=\"https://en.wikipedia.org/wiki/Shining_Tor\" ping=\"/url?sa=t&source=web&rct=j&url=https://en.wikipedia.org/wiki/Shining_Tor&ved=2ahUKEwj6gc-ElOD4AhX2HjQIHd1RB-QQmhN6BQiAARAC\">Wikipedia</a>"
     },
     {
         "id": "8",
@@ -122,7 +145,11 @@
         "prominence": "84",
         "lat": "53.232426",
         "lon": "-1.9490248",
-        "county": "Derbyshire"
+        "county": "Derbyshire",
+        "easy": "",
+        "moderate": "",
+        "hard": "",
+        "description": "Axe Edge Moor is the major moorland southwest of Buxton in the Peak District. It is mainly gritstone. This is slightly lower than <a href=\"/ethel/shining-tor\">Shining Tor</a>. The moor is the source of the River Dove, River Manifold, River Dane, River Wye and River Goyt.&nbsp;<a href=\"https://en.wikipedia.org/wiki/Axe_Edge_Moor\" ping=\"/url?sa=t&source=web&rct=j&url=https://en.wikipedia.org/wiki/Axe_Edge_Moor&ved=2ahUKEwjE8-2PlOD4AhU1AzQIHWMMC0cQmhN6BAhfEAI\">Wikipedia</a>"
     },
     {
         "id": "9",
@@ -137,7 +164,11 @@
         "prominence": "62",
         "lat": "53.44514",
         "lon": "-1.719925",
-        "county": "South Yorkshire"
+        "county": "South Yorkshire",
+        "easy": "",
+        "moderate": "",
+        "hard": "",
+        "description": "High Stones, at 550 metres, is the highest point within the boundaries of both Sheffield and South Yorkshire, England."
     },
     {
         "id": "10",
@@ -932,7 +963,11 @@
         "prominence": "72",
         "lat": "53.318719",
         "lon": "-2.0464951",
-        "county": "Cheshire"
+        "county": "Cheshire",
+        "easy": "",
+        "moderate": "",
+        "hard": "",
+        "description": "Sponds Hill is a summit in the Stockport to Stafford and Derby region in the county of Cheshire East, England. Sponds Hill is 413 metres high with a prominence of 72 metres."
     },
     {
         "id": "63",
