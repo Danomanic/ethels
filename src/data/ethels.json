@@ -213,7 +213,11 @@
         "prominence": "19",
         "lat": "53.456818",
         "lon": "-1.7168363",
-        "county": "South Yorkshire"
+        "county": "South Yorkshire",
+        "easy": "",
+        "moderate": "",
+        "hard": "",
+        "description": "Margery Hill is a 546-metre hill on the Howden Moors in South Yorkshire, England. It lies towards the northern boundary of the Peak District National Park, between Langsett Reservoir to the northeast and Howden Reservoir to the southwest. The area is managed by the National Trust as part of their High Peak Estate.&nbsp;<a href=\"https://en.wikipedia.org/wiki/Margery_Hill\" ping=\"/url?sa=t&source=web&rct=j&url=https://en.wikipedia.org/wiki/Margery_Hill&ved=2ahUKEwia7vuzluD4AhWaLzQIHWVjB8IQmhN6BAheEAI\">Wikipedia</a>"
     },
     {
         "id": "13",
@@ -228,7 +232,11 @@
         "prominence": "32",
         "lat": "53.424719",
         "lon": "-1.8660296",
-        "county": "Derbyshire"
+        "county": "Derbyshire",
+        "easy": "",
+        "moderate": "",
+        "hard": "",
+        "description": "Featherbed Top is an open, flat-topped hill, 544 metres high, in the Peak District in the county of Derbyshire in England.&nbsp;<a href=\"https://en.wikipedia.org/wiki/Featherbed_Top\" ping=\"/url?sa=t&source=web&rct=j&url=https://en.wikipedia.org/wiki/Featherbed_Top&ved=2ahUKEwjPxvTFluD4AhXPITQIHeWdAY0QmhN6BAhsEAI\">Wikipedia</a>"
     },
     {
         "id": "14",
@@ -243,7 +251,11 @@
         "prominence": "32",
         "lat": "53.410378",
         "lon": "-1.9097005",
-        "county": "Derbyshire"
+        "county": "Derbyshire",
+        "easy": "",
+        "moderate": "",
+        "hard": "",
+        "description": "Mill Hill is an open, flat-topped hill, 1,785 feet above sea level, in the Peak District in the county of Derbyshire in England.&nbsp;<a href=\"https://en.wikipedia.org/wiki/Mill_Hill_(Derbyshire)\" ping=\"/url?sa=t&source=web&rct=j&url=https://en.wikipedia.org/wiki/Mill_Hill_(Derbyshire)&ved=2ahUKEwif3tDRluD4AhW_IDQIHWXYCeMQmhN6BAhjEAI\">Wikipedia</a>"
     },
     {
         "id": "15",
@@ -258,7 +270,11 @@
         "prominence": "35",
         "lat": "53.513751",
         "lon": "-1.9170215",
-        "county": "Greater Manchester"
+        "county": "Greater Manchester",
+        "easy": "",
+        "moderate": "",
+        "hard": "",
+        "description": "Black Chew Head in Saddleworth in the Metropolitan Borough of Oldham is the highest point or county top of Greater Manchester in northern England. It stands on moorland on the edge of the Peak District at a height of 542 m above sea level, close to the border with the High Peak district of Derbyshire.&nbsp;<a href=\"https://en.wikipedia.org/wiki/Black_Chew_Head\" ping=\"/url?sa=t&source=web&rct=j&url=https://en.wikipedia.org/wiki/Black_Chew_Head&ved=2ahUKEwifr87eluD4AhWYAjQIHa6jBg4QmhN6BAhZEAI\">Wikipedia</a>"
     },
     {
         "id": "16",
@@ -273,7 +289,11 @@
         "prominence": "10",
         "lat": "53.50657",
         "lon": "-1.932113",
-        "county": "Derbyshire"
+        "county": "Derbyshire",
+        "easy": "",
+        "moderate": "",
+        "hard": "",
+        "description": "Featherbed Moss is a flat-topped hill, 541 metres high, in the Peak District in the county of Derbyshire in England. It is sometimes mistakenly thought to be a joint county top.&nbsp;<a href=\"https://en.wikipedia.org/wiki/Featherbed_Moss\" ping=\"/url?sa=t&source=web&rct=j&url=https://en.wikipedia.org/wiki/Featherbed_Moss&ved=2ahUKEwik5_DpluD4AhXGIDQIHcmNBeQQmhN6BAheEAI\">Wikipedia</a>"
     },
     {
         "id": "17",
@@ -288,7 +308,11 @@
         "prominence": "67",
         "lat": "53.414543",
         "lon": "-1.7050809",
-        "county": "Derbyshire / South Yorkshire"
+        "county": "Derbyshire / South Yorkshire",
+        "easy": "",
+        "moderate": "",
+        "hard": "",
+        "description": "Derwent Edge is a Millstone Grit escarpment that lies above the Upper Derwent Valley in the Peak District National Park in the English county of Derbyshire. <a href=\"https://en.wikipedia.org/wiki/Derwent_Edge\">Wikipedia</a>"
     },
     {
         "id": "18",
