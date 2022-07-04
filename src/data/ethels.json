@@ -657,7 +657,11 @@
         "prominence": "64",
         "lat": "53.216221",
         "lon": "-1.9071131",
-        "county": "Derbyshire"
+        "county": "Derbyshire",
+        "easy": "",
+        "moderate": "",
+        "hard": "",
+        "description": "High Edge is a limestone hill overlooking Harpur Hill, Buxton in Derbyshire, in the Peak District. The summit is 472 metres above sea level. The lower hilltop is marked by a cairn. Following the Countryside and Rights of Way Act 2000, this hilltop area became &quot;Open Access&quot; land for the public.&nbsp;<a href=\"https://en.wikipedia.org/wiki/High_Edge\" ping=\"/url?sa=t&source=web&rct=j&url=https://en.wikipedia.org/wiki/High_Edge&ved=2ahUKEwiQjbnol-D4AhUlJX0KHRXAAYwQmhN6BAhdEAI\">Wikipedia</a>"
     },
     {
         "id": "41",
@@ -1411,7 +1415,11 @@
         "prominence": "90",
         "lat": "53.234849",
         "lon": "-1.7392764",
-        "county": "Derbyshire"
+        "county": "Derbyshire",
+        "easy": "",
+        "moderate": "",
+        "hard": "",
+        "description": "Fin Cop is a hill and an associated Iron Age hill fort in Monsal Dale, close to Ashford in the Water in Derbyshire, England. The fort shows evidence of hurried construction, indicating a defensive response to a real threat, rather than the more usual assumption that such forts were a display of status and prestige.&nbsp;<a href=\"https://en.wikipedia.org/wiki/Fin_Cop\" ping=\"/url?sa=t&source=web&rct=j&url=https://en.wikipedia.org/wiki/Fin_Cop&ved=2ahUKEwjg6-v8l-D4AhU4IDQIHf-5DPoQmhN6BAhGEAI\">Wikipedia</a>"
     },
     {
         "id": "91",
